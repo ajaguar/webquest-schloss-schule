@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+hr {
+    background-color: black !important;
+    height: 1px !important;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -82,7 +87,7 @@ a:hover {
 
 @media screen and (min-width: 64em) {
     .page-header {
-        padding: 5rem 6rem;
+        /*        padding: 5rem 6rem;*/
     }
 }
 
@@ -162,7 +167,7 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957;
+    color: #724108;
 }
 
 .main-content p {
