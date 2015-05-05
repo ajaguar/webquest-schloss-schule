@@ -427,10 +427,10 @@ td:first-child {
 }
 
 .modal-glossary {
-    opacity: 0;
+    display: none;
     width: 60%;
     min-width: 400px;
-    margin-top: 6em;
+    margin-top: 2em;
     margin-left: auto;
     padding: 1em 2em;
     
@@ -439,6 +439,8 @@ td:first-child {
     left: 20%;
     
     background-color: #ffffff;
+    -webkit-box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
+    -moz-box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
     box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
     border-radius: 2px;
     
@@ -459,7 +461,7 @@ td:first-child {
 }
 
 :checked ~ * {
-    opacity: 1;
+    display: block;
 }
 
 .modal-glossary-input {
@@ -487,6 +489,8 @@ td:first-child {
     
     border-width: 0;
     border-radius: 50%;
+    -webkit-box-shadow: 0 5px 8px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 5px 8px rgba(0,0,0,.4);
     box-shadow: 0 5px 8px rgba(0,0,0,.4);
     
     color: #fff;
