@@ -407,15 +407,15 @@ td:first-child {
 }
 
 .s-rot {
-    color: #a22a2a;
+    color: darkred;
 }
 
 .s-yellow {
-    color: #ffff00;
+    color: darkblue;
 }
 
 .s-green {
-    color: #00830a;
+    color: darkgreen;
 }
 
 .radiosstyle {
