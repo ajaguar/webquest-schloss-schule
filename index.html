@@ -6,7 +6,8 @@
     <title>Webquest-schloss-schule by ajaguar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="stylesheets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 </head>
@@ -24,14 +25,83 @@
     </section>
 
     <section class="main-content">
-        <h3>
-<a id="leason-one" class="anchor" href="#leason-one" aria-hidden="true"><span class="octicon octicon-link"></span></a>Neues Video</h3>
+        <style scoped>
+            .post {
+                margin: 12px;
+                padding: 12px;
+                border: 1px solid #e2e2e2;
+                border-radius: 2px;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+                background-color: #ffffff;
+                font-family: Roboto, sans-serif;
+            }
 
-        <hr>
-        <div>
-            <span>vor 5 Minuten gepostet</span> <span>von "Bürgermeister von Stromhausen"</span>
+            .post-header {
+                margin-bottom: 12px;
+                overflow: auto;
+                vertical-align: top;
+            }
+
+            .post-user-thumbnail {
+                float: left;
+                margin-right: 12px;
+                max-width: 96px;
+            }
+
+            .post-user-name {
+                font-size: 120%;
+                font-weight: bold;
+                color: #f56545;
+                margin-top: 0;
+                margin-bottom: 12px;
+            }
+
+            .post-user-meta {
+                margin: 0;
+                font-size: 80%;
+                color: #aaa;
+            }
+
+            .post-content video {
+                width: 100%;
+            }
+
+            .post-footer {
+                margin-top: 12px;
+                border-top: 1px solid #e2e2e2;
+                padding-top: 12px;
+                text-align: right;
+            }
+
+            .post-vote {
+                padding: 0;
+                margin: 0;
+                border: none;
+                background-image: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+
+            .post-vote span {
+                line-height: 24px;
+            }
+        </style>
+
+        <div class="post">
+            <div class="post-header">
+                <img src="http://lorempixel.com/192/192/people/8" class="post-user-thumbnail">
+                <h3 class="post-user-name">Bürgermeister von Stromhausen</h3>
+                <p class="post-user-meta">6.739 Freunde</p>
+            </div>
+            <div class="post-content">
+                <video src="http://video.webmfiles.org/big-buck-bunny_trailer.webm" controls></video>
+            </div>
+            <div class="post-footer">
+                <button type="button" class="post-vote">
+                    <i class="fa fa-thumbs-up fa-2x"></i> Das ist schön!
+                </button>
+            </div>
         </div>
-
 
         <footer class="site-footer">
             <span class="site-footer-owner"><a href="https://github.com/ajaguar/webquest-schloss-schule">Webquest-schloss-schule</a> is maintained by <a href="https://github.com/ajaguar">ajaguar</a>.</span>

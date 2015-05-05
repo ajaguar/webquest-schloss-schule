@@ -1,3 +1,7 @@
+li {
+    padding-bottom: 20px
+}
+
 * {
     box-sizing: border-box;
 }
@@ -360,4 +364,64 @@ a:hover {
     .site-footer {
         font-size: 0.9rem;
     }
+}
+
+input[type=checkbox] {
+    -ms-transform: scale(2);
+    /* IE */
+
+    -moz-transform: scale(2);
+    /* FF */
+
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+
+    -o-transform: scale(2);
+    /* Opera */
+}
+
+input[type=radio] {
+    -ms-transform: scale(2);
+    /* IE */
+
+    -moz-transform: scale(2);
+    /* FF */
+
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+
+    -o-transform: scale(2);
+    /* Opera */
+}
+
+td {
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+.checklist {
+    float: right;
+}
+
+.s-rot {
+    color: #a22a2a;
+}
+
+.s-yellow {
+    color: #ffff00;
+}
+
+.s-green {
+    color: #00830a;
+}
+
+.radiosstyle {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
