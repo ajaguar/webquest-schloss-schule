@@ -496,3 +496,19 @@ td:first-child {
     color: #fff;
     background-color: #714010;
 }
+.symbol {
+    float: left;
+    padding-right: 20px;
+}
+
+.symboltext {
+}
+
+.symbolheight {
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.block {
+    clear: left;
+}
