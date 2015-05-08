@@ -29,14 +29,14 @@
         <p>Hier sind eure Arbeitsschritte:</p>
 
         <ol>
-            <span class="checklist"><input type=checkbox id=task-1></input></span>
+            <span class="checklist"><input id="task-0" type="checkbox"></input></span>
             <li>Lest euch die Aufgabenstellung durch.
             </li>
-            <span class="checklist"><input type=checkbox id=task-2></input></span>
+            <span class="checklist"><input id="task-1" type="checkbox"></input></span>
             <li>Beschafft euch Informationen, indem ihr die unterschiedlichen Internetlinks anklickt.</li>
-            <span class="checklist"><input type=checkbox id=task-3></input></span>
+            <span class="checklist"><input id="task-2" type="checkbox"></input></span>
             <li>Schreibt 3 wichtige Merkmale auf das Plakat.</li>
-            <span class="checklist"><input type=checkbox id=task-4></input></span>
+            <span class="checklist"><input id="task-3" type="checkbox"></input></span>
             <li>Holt euch das nötige Material vom Materialtisch und bereitet die Veränderung am Modell vor.</li>
         </ol>
 
@@ -65,8 +65,21 @@
         </dl>
     </div>
 
+    <script src="javascripts/lodash.min.js"></script>
+    <script src="javascripts/Element.addEventListener.polyfill.js"></script>
+    <script src="javascripts/Window.localStorage.polyfill.js"></script>
     <script>
-    
+    _.each(_.range(4), function(i) {
+        var task = 'task-' + i,
+            state = localStorage.getItem(task),
+            element = document.getElementById(task);
+
+        element.checked = state === 'true';
+        element.addEventListener('click', function() {
+            localStorage.setItem(task, state !== 'true');
+            console.log(localStorage);
+        });
+    });
     </script>
 </body>
 
