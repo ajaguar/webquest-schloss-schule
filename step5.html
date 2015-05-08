@@ -39,17 +39,17 @@
                 <td>In unserer Gruppe hatte jeder eine Aufgabe.</td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q1"></input>
+                        <input type="radio" name="q1" id="q1-1"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q1"></input>
+                        <input type="radio" name="q1" id="q1-2"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q1"></input>
+                        <input type="radio" name="q1" id="q1-3"></input>
                     </label>
                 </td>
             </tr>
@@ -57,17 +57,17 @@
                 <td>Wir haben im Internet Informationen zu unserer Aufgabe gesucht.</td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q2"></input>
+                        <input type="radio" name="q2" id="q2-1"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q2"></input>
+                        <input type="radio" name="q2" id="q2-2"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q2"></input>
+                        <input type="radio" name="q2" id="q2-3"></input>
                     </label>
                 </td>
             </tr>
@@ -75,17 +75,17 @@
                 <td>Unsere wichtigsten Ergebnisse stehen auf dem Plakat.</td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q3"></input>
+                        <input type="radio" name="q3" id="q3-1"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q3"></input>
+                        <input type="radio" name="q3" id="q3-2"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q3"></input>
+                        <input type="radio" name="q3" id="q3-3"></input>
                     </label>
                 </td>
             </tr>
@@ -93,17 +93,17 @@
                 <td>Wir wissen was sich in Stromhausen verändern würde.</td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q4"></input>
+                        <input type="radio" name="q4" id="q4-1"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q4"></input>
+                        <input type="radio" name="q4" id="q4-2"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q4"></input>
+                        <input type="radio" name="q4" id="q4-3"></input>
                     </label>
                 </td>
             </tr>
@@ -111,17 +111,17 @@
                 <td>Wir haben die Änderung am Modell vorbereitet.</td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q5"></input>
+                        <input type="radio" name="q5" id="q5-1"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q5"></input>
+                        <input type="radio" name="q5" id="q5-2"></input>
                     </label>
                 </td>
                 <td>
                     <label class="radiosstyle">
-                        <input type="radio" name="q5"></input>
+                        <input type="radio" name="q5" id="q5-3"></input>
                     </label>
                 </td>
             </tr>
@@ -151,6 +151,29 @@
             <dd>Im Tagebau wird dicht unter der Erde liegende Kohle abgebaut.</dd>
         </dl>
     </div>
+
+    <script src="javascripts/lodash.min.js"></script>
+    <script src="javascripts/Element.addEventListener.polyfill.js"></script>
+    <script src="javascripts/Window.localStorage.polyfill.js"></script>
+    <script>
+    _.each(_.range(1,6), function(questionIndex) {
+        _.each(_.range(1,4), function(answerIndex) {
+            var id = 'q' + questionIndex + '-' + answerIndex,
+                state = localStorage.getItem(id),
+                element = document.getElementById(id);
+
+            element.checked = state === 'true';
+            element.addEventListener('click', function() {
+                if (element.checked) {
+                    _.each(_.range(1,4), function(a) {
+                        var aId = 'q' + questionIndex + '-' + a;
+                        localStorage.setItem(aId, a === answerIndex);
+                    });
+                }
+            });
+        });
+    });
+    </script>
 </body>
 
 </html>
