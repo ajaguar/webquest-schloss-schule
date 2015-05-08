@@ -439,9 +439,9 @@ td:first-child {
     left: 20%;
     
     background-color: #ffffff;
-    -webkit-box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
-    -moz-box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
-    box-shadow: 0 0 0 9999px rgba(0,0,0,.68);
+    -webkit-box-shadow: 0 0 9999px 9999px rgba(0,0,0,.68);
+    -moz-box-shadow: 0 0 9999px 9999px rgba(0,0,0,.68);
+    box-shadow: 0 0 9999px 9999px rgba(0,0,0,.68);
     border-radius: 2px;
     
     z-index: 1;
