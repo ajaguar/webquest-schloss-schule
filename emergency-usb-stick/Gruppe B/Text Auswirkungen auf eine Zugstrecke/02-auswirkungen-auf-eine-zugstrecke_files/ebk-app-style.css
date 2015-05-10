@@ -1,0 +1,74 @@
+@charset "utf-8"; .jobApp #searchResult h4 {font-weight:bold;line-height:135%;margin:0;padding:2px 0 0 0;}
+.jobApp #searchResult h4 a {color:#58585A;line-height:135%;margin:0;}
+#content #contentInner .jobApp p {margin:0 0 1.5em 0;color:#59595b;}
+#content .jobApp #searchResult p {margin:0 0 4px 0;color:#59595b;}
+.jobApp form { margin:0;}
+.jobApp fieldset {border:0;margin:0;padding:0;}
+.jobApp .error {color:#FF0000;}
+.jobApp select,.jobApp input,.jobApp textarea {font-size:99%; }
+.jobApp select {margin:7px 0 7px 0;}
+.jobApp .jobSearchCommand img {margin-top:10px;}
+.jobApp input,.jobApp textarea {padding:1px 3px;}
+.jobApp #searchStartBox {margin-top:5px;height:22px;}
+.jobApp #searchStartBox input.text {width:170px;height:17px;float:left;color:#0066aa;border:1px solid #0066aa;padding:3px 3px 0 3px;margin-right:6px;}
+.jobApp #searchStartBox a {display:block;height:22px;margin:0;}
+.jobApp #resultHeadline {overflow:hidden;margin-bottom:8px;}
+.jobApp #resultHeadline h2 {float:left !important;width:160px;margin-right:15px;display:block;margin-bottom:0;}
+.jobApp #resultHeadline #resetLink {float:left;width:160px;padding-left:10px;background:transparent url(/web/cms/contentblob/317386/data/457/arrow-red.gif) no-repeat scroll left center;}
+.jobApp #searchResult {line-height:1%; margin-bottom:30px;overflow:hidden;}
+.jobApp #searchResult #noresult {line-height:135%;clear:both;}
+.jobApp #searchResult table.rich-table {clear:both;border:0;width:533px; margin-top:5px;margin-bottom:5px;border-bottom:1px solid #b5b4b0;}
+.narrow .jobApp #searchResult table.rich-table {width:470px;}
+.jobApp #searchResult table.rich-table th {text-align:left;padding:5px;color:#0066aa;font-weight:bold;background-color:#FFFFFF;border-top:1px solid #b5b4b0;border-bottom:1px solid #b5b4b0;border-right:0;border-left:0;}
+.jobApp #searchResult table.rich-table td {padding-left:0;padding:5px;font-weight:normal;vertical-align:top;border-bottom:1px dotted #b5b4b0;border-right:0;border-left:0;}
+.jobApp #searchResult table.rich-table td.symbolfix div {cursor:pointer;}
+.jobApp #search {position:static;width:533px;overflow:hidden;color:#FFFFFF;margin-bottom:25px;}
+.jobApp #search #searchBox {height:28px;padding:16px;color:#fff;overflow:hidden;position:relative;background:#1674b2 url(/web/cms/contentblob/317050/data/874/suche-bg-oben.gif) no-repeat scroll center top;height:21px;}
+.jobApp #search #searchBox img {vertical-align:middle;margin:0;padding:0;}
+.jobApp #search #searchBox label,.jobApp #search #searchBox input.text,.jobApp #search #searchBox a {position:absolute;top:20px;}
+.jobApp #search #searchBox label {left:20px;top:22px;}
+.jobApp #search #searchBox input {left:160px;}
+.jobApp #search #searchBox a {left:413px;}
+.jobApp #search .selectAllCheckbox {padding-bottom:1px;overflow:hidden;}
+.jobApp #search .selectAllCheckbox input {margin-left:5px;}
+.jobApp #search .selectAllCheckbox label {margin-top:2px;}
+#content .jobApp table.checkboxList {margin-bottom:0;}
+#content .jobApp table.checkboxList td {padding-top:0;padding-bottom:0;border-bottom:none;}
+.jobApp #search .scrollableCheckboxList {height:91px;overflow:auto;overflow-x:hidden;background-color:#fff;color:#424242;font-size:0.9em;}
+*+ html .jobApp #search .scrollableCheckboxList {overflow-y:scroll;}
+* html .jobApp #search .scrollableCheckboxList {width:240px;}
+.jobApp #search .scrollableCheckboxList input {float:left;margin-top:3px}
+* html .jobApp #search .scrollableCheckboxList input {margin-top:0;}
+* + html .jobApp #search .scrollableCheckboxList input {margin-top:0;}
+.jobApp #search .scrollableCheckboxList label {float:left;width:200px;margin-left:5px;}
+* html .jobApp #search .scrollableCheckboxList label {width:190px;overflow:hidden;}
+.jobApp #search .extendedOptions {height:91px;}
+.jobApp #extendedSearch {width:501px;padding:16px;padding-top:0px;overflow:hidden;color:#fff;background:#2079b8 url(/web/cms/contentblob/317052/data/875/suche-bg-unten.gif) no-repeat scroll left bottom;}
+.jobApp #extendedSearch .extendedOptions {padding-top:16px;}
+.jobApp #extendedSearch .zu {color:#fff;display:block;height:17px;padding-left:22px;cursor:pointer;background:transparent url(/web/cms/contentblob/317140/data/877/zu-blau.gif) no-repeat scroll left bottom;}
+.jobApp #extendedSearch .auf {color:#fff;clear:both;display:block;height:17px;padding-left:22px;cursor:pointer;background:transparent url(/web/cms/contentblob/317138/data/876/auf-blau.gif) no-repeat scroll left bottom;}
+.jobApp #extendedSearch .hidden {display:none;}
+.jobApp #filterBoxLeft,.jobApp #filterBoxRight {float:left;}
+.jobApp #filterBoxLeft {width:255px;padding-right:16px;}
+.jobApp #filterBoxRight {width:230px;}
+.jobApp #search input.text {width:240px;height:19px;color:#424242;border:1px solid #0066aa;padding:1px 3px 0 3px;}
+.jobApp #search select {margin-bottom:5px;width:230px;height:20px;line-height:16px;color:#424242;border:1px solid #0066aa;padding:1px 1px 1px 3px;}
+.jobApp #search .small {font-size:0.9em;}
+.jobApp #paging {}
+.jobApp #paging,.jobApp #paging2 {width:533px;height:23px;padding:6px 0;overflow:hidden;}
+.jobApp #paging #right,.jobApp #paging2 #right2 {float:right;height:23px;width:70%;text-align:right;font-size:0.9em;margin:0; padding:0; border:0;vertical-align:middle;overflow:hidden;}
+.jobApp #paging #right span,.jobApp #paging2 #right2 span {vertical-align:middle;}
+.jobApp #paging #left a,.jobApp #paging #right a, .jobApp #paging2 #right2 a{ margin:0; padding:0; border:0;}
+.jobApp #paging #right a img,.jobApp #paging2 #right2 a img,.jobApp #paging #right img,.jobApp #paging2 #right2 img {height:22px;vertical-align:middle;padding:0; border:0;margin-left:6px;margin-top:0;margin-bottom:1px;}
+.jobApp #paging #left {float:left;height:23px;width:30%;margin:0; padding:0; border:0;overflow:hidden; }
+.jobApp #paging #left img {height:22px;margin-right:6px;margin-top:0;margin-bottom:1px;}
+.jobApp div.error-alert-msg {color:red;}
+.jobApp #searchStartBox.narrow {border-top:1px solid #A9CCE1;margin-top:5px;padding-top:5px;}
+.jobApp #searchStartBox.narrow input {float:left;}
+.jobApp #searchStartBox.narrow .jobSearchInput {margin-top:2px;margin-right:5px;width:135px;}
+.jobApp .clearBoth{clear:both;}
+.jobApp .clearLeft {clear:left;}
+.jobApp .clearRight {clear:right;}
+.jobApp .float-left {float:left;}
+.jobApp .float-right {float:right;}
+.jobApp .hidden {display:none;}

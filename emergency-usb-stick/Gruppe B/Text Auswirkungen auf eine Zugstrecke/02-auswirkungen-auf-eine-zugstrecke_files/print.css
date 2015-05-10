@@ -1,0 +1,22 @@
+#top * { position:static !important;  overflow:visible !important; float:none !important;}
+body {background:none !important;color:#58585a;font-size:100.01%;font-size:0.75em;line-height:1.25em;font-family:Tahoma, Arial, sans-serif;padding-bottom:168px; }
+#topNav, #col1, .heading1, #qSearch,#sidebar, #footer, #functionBar, #header, #shadowbox_container, #keyvisual object, #editMenu {display:none;}
+#top {margin:0;}
+#main {top:50px;}
+#col2 {float:none;}
+#content, #ariadne {width:auto;margin-bottom:0;}
+#content, #contentInner, #main, #top, #col2, #contentBottom {width:auto !important;}
+span.lightbox .overlay {display:none;}
+#content ul {padding-left:0;}
+#content table {width:auto;}
+#content .teaser img {margin-left:0;margin-bottom:0.5em;display:block;}
+#header {height:auto;}
+#header .rweLogo {margin-top:0;}
+#ariadne ul,#teaserContainer ul {padding-left:0 !important;margin-left:0 !important;}
+#teaserContainer {background:none !important;margin-top:0 !important;}
+#teaserContainer .teaser {float:left !important;margin-right:5px;margin-top:0 !important;font-size:11px;font-family:Tahoma, Arial, sans-serif;}
+#contentInner {padding:0 !important;}
+.specialContent .linkliste a {background:none !important;}
+#contentview #content {width:100% !important;}
+.GoogleMap {height:600px;width:100%;}
+#pdfCover {margin-top:220px;}

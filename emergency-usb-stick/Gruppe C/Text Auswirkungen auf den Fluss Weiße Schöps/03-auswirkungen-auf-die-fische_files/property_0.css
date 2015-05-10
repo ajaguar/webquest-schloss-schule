@@ -1,0 +1,19 @@
+/* CMSEVO-2595 */
+
+.doctypebeitrag .layoutarticlemodule > .picture .manualteaserpicture + .picturesubtext { display:none; }
+.doctypebeitrag .layoutarticlemodule > .picture .manualteaserpicture.player + .picturesubtext { display:block; }
+
+
+
+
+@media screen and (min-width: 481px) {
+.layoutvotingmodule .wrapper_voting.two_col>ul>li:nth-child(2n)+li {
+clear: none;
+}
+}
+
+@media screen and (min-width: 568px) {
+.layoutvotingmodule .wrapper_voting>ul>li:nth-child(3n)+li {
+clear:none;
+}
+}

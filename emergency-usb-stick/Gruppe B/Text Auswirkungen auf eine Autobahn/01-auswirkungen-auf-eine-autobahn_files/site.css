@@ -1,0 +1,277 @@
+/*	Stylesheet for www.strassen.nrw.de
+ *	last edited: 2014-10-02
+ *	by: a.rt
+ */
+
+body {
+	margin: 0px; padding: 0px; border: 0px;
+	color: #003300; background-color: #eeffee;
+	font-family: geneva,arial,helvetica,sans-serif;
+	font-size: 80%;
+}
+
+
+/* ---- Glue for braindead browsers --------------------------- */
+
+td,th,div,p,ul,ol,li,dl,dt,dd,
+address,blockquote,form,fieldset,object {
+	font-family: geneva,arial,helvetica,sans-serif;
+	color: #003300;
+}
+pre,tt,code,keyb,sample {
+	font-family: monospace;
+	color: #003300;
+}
+code {
+	font-size: 120%;
+}
+
+
+/* ---- General rules ----------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	font-style: normal;
+	color: #004400;		/* glue */
+	margin-bottom: 0;
+}
+/* h1 { font-size: 1.4em; } */
+h1, h2 { font-size: 1.2em; }
+h3 { font-size: 1em; }
+h4 { font-size: 1em; font-style: italic; }
+h5 { font-size: 0.9em; }
+h6 { font-size: 0.9em; font-style: italic; }
+
+h1.hidden, p.hidden, hr.hidden { display: none; }
+.smaller { font-size: 90%; }
+
+a:link,
+a:visited {
+	color: #003300;
+	text-decoration: underline;
+}
+a:hover,
+a:active {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+img, a img { border: none; }
+img.zoom { cursor: url(zoom.gif), pointer; }
+
+hr {	height: 1px; }
+
+.inl-l {
+	float: left;
+	margin: 0 1em 0.3em 0;
+	font-size: 90%;
+	color: #666666;
+}
+.inl-r {
+	float: right;
+	margin: 0 0 0.3em 1em;
+	font-size: 90%;
+	color: #666666;
+}
+
+br[clear=all] { clear: both; }
+
+.ybox {
+	display: block;
+	padding: .5em;
+	background:#ffff99;
+}
+
+object.video-250r {
+	width: 250px;
+	height: 180px;
+	float: right;
+	margin: 0 0 0.3em 1em;
+}
+
+
+dt {
+	margin: 1em 0 0 0;
+	font-weight: bold;
+}
+dd {
+	margin: 0 0 0 2em;
+}
+dd ul, dd ol {
+	margin-top: 0;
+}
+dl.table { line-height: 1.4em; }
+dl.table dt { width: 30%; margin: 0; padding: 0; font-weight: bold; }
+dl.table dd { position: relative; top: -1.4em; margin-left: 30%; padding-left: 1em; }
+dl.table dd + dd { padding-top: .5em; }
+
+/* testing ... */
+div.bydate h3 { float: left; clear: left; margin: 0; font-size: 1em; font-weight: normal; }
+div.bydate p { margin-left: 7em; }
+/* ... testing */
+
+
+/* ---- Layout tables ----------------------------------------- */
+table.banner #banner_t {
+	background-color: #99CC99;
+}
+#main_t {
+	width: 100%;
+	max-width: 786px;
+}
+#banner-c1 {
+  width: 166px; overflow: hidden;
+	padding: 0;
+	background-color: #eeffee;
+	line-height: 1.5em;
+}
+#banner-c2 {
+	padding: 0;
+}
+#banner-c3 {
+	background-color: #99CC99;
+	background-image: url("banner_r.jpg");
+	background-repeat: no-repeat;
+}
+#main-c1 {
+  width: 166px; overflow: hidden; 
+	padding: 1em 0 0 0;
+	background-color: #99CC99;
+}
+#main-c2 {
+	width: 1em; overflow: hidden;
+	padding: 0;
+}
+#main-c3 {
+	padding: 1.4em 0 0 0;
+}
+#footer-c1 {
+  width: 166px; overflow: hidden;
+	background-color: #99CC99;
+}
+#footer-c2 {
+	width: 1em; overflow: hidden;
+	padding: 0;
+}
+
+
+/* ---- Special dividers -------------------------------------- */
+
+div.contextNav {
+	margin: 0;
+}
+div.contextNav em {
+	color: #CC0000;
+	font-style: normal;
+}
+div#content { width: 100%; max-width: 600px; }
+div#content + * { clear: both; }
+
+div.vbar-right { max-width: 35%; margin: 0 0 1em 1em; float: right; }
+div.vbar-right dl.compact dt { margin: .5em 0 0 0; padding: 0; }
+div.vbar-right dl.compact dd { margin: 0; padding: 0; }
+
+/* umbau ak-aachen huesch+huesch */
+div.hh_baustelleninfo {
+	display: block;
+	border: 1px solid #222;
+	background: #fff;
+	margin: 20px 0;
+	padding: 0 5px;
+}
+
+/* image bar on the right */
+div.imgbar250-r { width: 250px; float: right; margin-left: 1em; font-size: 90%; }
+div.imgbar250-r img { max-width: 250px; margin-bottom: 1em; }
+
+
+/* ---- Special lists -------------------------------------- */
+
+/* added 2013-03-13: dl.datumsliste ... */
+dl.datumsliste  { margin: 0; padding: 0; }
+dl.datumsliste dt { position: relative; left: 0; top: .5em; padding-top: .5em; border-top: 1px dotted silver; font-size: .9em; font-weight: bolder; }
+dl.datumsliste dd { margin: 0 0 0 8em; padding: .5em 0 0 0; display: list-item; }
+
+
+/* ---- Webcams ----------------------------------------------- */
+
+div#wcbox { width: 320px; float: right; border: solid 1px gray; margin-left: 1em; background: #fff; }
+span#wcibox { display: block; max-width: 320px; max-height: 240px; overflow: hidden; }
+div#wcbox form { margin: 0; padding: 0.5em; }
+
+
+/* ---- Links ------------------------------------------------- */
+
+div.toplinks {
+	margin: 0;
+	padding: 2px;
+	background: #336633;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+}
+div.toplinks a:link,
+div.toplinks a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+div.toplinks a:hover,
+div.toplinks a:active {
+	color:#ffffff;
+	text-decoration: underline;
+}
+div.toplinks em {
+	color:#99cc99;
+	font-style:normal;
+}
+
+div.sidelinks {
+	color:#224422;
+	margin: 0.4em 0em;
+	line-height: 1.4em;
+}
+div.sidelinks tt {
+	color:#CC0000;
+}
+div.sidelinks a:link,
+div.sidelinks a:visited,
+a:link[href^="tel:"],
+a:visited[href^="tel:"] {
+	color: #224422;
+	text-decoration: none;
+}
+div.sidelinks a:hover,
+div.sidelinks a:active,
+a:hover[href^="tel:"],
+a:active[href^="tel:"] {
+	color: #224422;
+	text-decoration: underline;
+}
+div.sidelinks a em {
+	color:#CC0000;
+	font-style: normal;
+}
+
+
+/* ---- Print ------------------------------------------------- */
+@media print {
+	body {
+		padding: 0 5%;
+		color: #000; background-color: #fff;
+	}
+	div.toplinks,
+	div.contextNav,
+	#banner-c1,
+	#main-c1,
+	#main-c2,
+	#footer-c1,
+	#footer-c2,
+	#footer-c3 {
+		display: none;
+	}
+	#main-c3 {
+		width: 90%;
+	}
+	td,th,div,p,ul,ol,li,dl,dt,dd,address,blockquote,form,fieldset,object,pre,tt,code,keyb,sample,h1,h2,h3,h4,h5,h6,a:link,a:visited,a:hover,a:active {
+	color: black;
+	}
+}

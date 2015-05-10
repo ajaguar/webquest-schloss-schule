@@ -1,0 +1,53 @@
+body#content.webform {width:93%;margin:30px auto;background:none repeat scroll 0 0 white;padding-bottom:0px;overflow:auto;}
+#formeditor fieldset { border:0; margin:0; padding:0}
+#formeditor {margin-bottom:15px;}
+.FormBox:after{clear:both;}
+.FormBox:before,.FormBox:after {content:"";display:table;}
+.FormBox:before, .FormBox:after, .contentItem:before, .contentItem:after, #divMenuBar:before, #divMenuBar:after, .clearfix:before, .clearfix:after {content:"";display:table;}
+p.radioGroupLabel,p.radioGroupError {margin-top:10px;}
+#formeditor p.radioGroupElement { }
+form.FormBase{background-color:#E5EFF6;border-top:1px solid #A6CAE1;border-bottom:1px solid #A6CAE1;padding:20px;}
+div.FormBox.Formfooter {margin-top:15px;}
+div.FormBox {font-size:1em;line-height:normal;font-family:Tahoma,Arial,sans-serif;text-transform:none;color:#58585a;margin:0;}
+div.FormBox .contentItem,#content div.FormBox .contentItem p {margin-bottom:0px;}
+div.FormBox.checkBoxGroup {margin-top:10px;}
+.checkBoxGroup span.checkBoxGroupLabel,form.FormBase .checkBoxGroup span.checkBoxGroupError {padding-bottom:8px;display:block; }
+form.FormBase p.checkBoxGroupLabel, form.FormBase p.checkBoxGroupError {margin-top:10px;}
+form.FormBase p.FormInputCheckItem.elemHorizontal { width:auto;float:left;padding-right:10px;}
+form.FormBase label {color:#58585A;display:block;font-size:12px;margin-top:10px;padding:5px 0;cursor:pointer;}
+form.FormBase .FormInputNorm {font-size:12px;padding:5px;width:95%}
+form.FormBase .FormBoxRadio {margin-top:15px;}
+form.FormBase .FormBoxRadio legend {display:inline;float:left;font-size:12px;margin:0px;margin-left:-5px;padding:0;width:100%;padding-bottom:5px;}
+form.FormBase .FormBoxRadio legend span {display:inline;float:left}
+form.FormBase .FormBoxRadio input {float:left;}
+form.FormBase .FormBoxRadio label {color:#58585A;float:left;font-size:12px;margin-top:0px;padding:0;margin-left:2px;margin-right:15px;vertical-alignment:baseline;}
+#content form.FormBase .FormBoxRadio p.radioGroupError {border:0;color:#CC0000;}
+form.FormBase .FormInputTextarea {width:99%;}
+form.FormBase div.FormBox textarea {font-size:12px;overflow:auto;resize:vertical;vertical-align:top;padding-bottom:5px;min-height:100px;max-height:300px;}
+div.paragraph {margin-top:20px;}
+div.paragraph.invisible{ display:none;}
+#formeditor div.paragraph p {margin-bottom:0px;}
+div.FormBox select.selectclass {border:0px;border-color:#EBF7FE;width:98%; padding-top:5px;padding-bottom:5px;}
+form.FormBase span.hint {display:none;}
+input[readonly]{color:#58585A;background-color:#f3f3f3;}
+input.input-button{ font-size:12px; line-height:18px; margin:10px 0 0 28px; width:auto; float:right; display:inline-block; color:#fff; background:#00749a url(/web/cms/contentblob/1517660/data/81161/button-back.jpg) no-repeat left top; padding:4px 20px 5px 25px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; cursor:pointer; border:none; -webkit-box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.3); -moz-box-shadow:0px 1px 2px 0p x rgba(0, 0, 0, 0.3); box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.3); text-decoration:none;}
+input.input-button#back { background:#00749a url(/web/cms/contentblob/2388114/data/147600/button-back-back.png) no-repeat left top; float:left; margin-left:0px;}
+input.input-button:hover,input.input-button:focus,input.input-button:active { background:#00749a url(/web/cms/contentblob/1517662/data/81149/button-back-hover.jpg) no-repeat left top;color:#FFFFFF;}
+input.input-button#back:hover,input.input-button#back:focus,input.input-button#back:active { background:#00749a url(/web/cms/contentblob/2388112/data/147601/button-back-back-hover.png) no-repeat left top;}
+form.FormBase .Zweispaltig .FormBoxLeft {float:left;width:45.5%;margin-right:13px;}
+form.FormBase .FormBoxLeft.nomargin {margin-right:0px;}
+form.FormBase .Dreispaltig .FormBoxLeft {float:left;width:30.3%;margin-right:13px;}
+form.FormBase .FormBoxLeft3.nomargin {margin-right:0px;}
+#content .FormBoxLeft3 p { margin-bottom:0px; margin-top:42px;}
+#content form.FormBase textarea.error,#content p.radioGroupError,#content form.FormBase select.error,#content form.FormBase input.error{border:1px solid #CC0000;}
+form.FormBase span.radioerror,form.FormBase span.checkBoxGroupError {color:#C00; font-size:12px;display:block;padding-bottom:4px;}
+.flyout .teaserFlyout li.webForm{padding:0;background-color:#E5EFF6;}
+li.webForm form.FormBase,li.webForm div#success,div#success{background-color:#E5EFF6;border-top:none;border-bottom:none;padding:10px;}
+li.webForm div.FormBox{margin-top:0px;height:auto;}
+li.webForm form.FormBase label,li.webForm form.FormBase .FormInputNorm,li.webForm form.FormBase .FormBoxRadio legend,li.webForm form.FormBase input.input-button{font-size:11px;}
+li.webForm form.FormBase label{margin-top:0px;}
+li.webForm form.FormBase input.input-button{padding:2px 10px 5px 5px;}
+li.webForm form.FormBase .FormBoxRadio{margin-top:5px;}
+li.webForm form.FormBase .FormInputNorm{padding:2px;}
+li.webForm br.clearBoth{border:1px solid red;}
+div.Einspaltig,div.Zweispaltig {clear:both;}

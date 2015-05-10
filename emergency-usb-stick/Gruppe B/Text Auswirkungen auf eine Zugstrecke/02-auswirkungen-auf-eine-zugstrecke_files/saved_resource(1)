@@ -1,0 +1,155 @@
+
+.rich-container input, .rich-input,       .rich-container select, .rich-select,         .rich-container textarea, .rich-textarea,         .rich-container button, .rich-button,         .rich-container keygen, .rich-keygen,         .rich-container isindex, .rich-isindex,         .rich-container legend, .rich-legend,       .rich-container a, .rich-link,       .rich-container fieldset, .rich-fieldset,       .rich-field, .rich-field-edit, .rich-field-error,       .rich-button, .rich-button-disabled, .rich-button-over, .rich-button-press{
+font-size:11px;font-family:Arial, Verdana, sans-serif ;color:#000000;}.rich-container fieldset, .rich-fieldset {
+			border-width: 1px; 
+			border-style: solid;
+			padding: 10px;
+		}
+
+		.rich-container hr, .rich-hr {
+			border-width: 1px; 
+			border-style: solid;
+		}
+
+		.rich-container legend, .rich-legend {
+			font-weight : bold;
+		}
+
+		.rich-container form, .rich-form {
+			padding : 0px;
+			margin : 0px;
+		}
+.rich-container fieldset, .rich-fieldset{
+border-color:#C4C0B9;}
+.rich-container hr, .rich-hr{
+border-color:#C4C0B9;}
+.rich-container a, .rich-link{
+color:#0078D0;}
+.rich-container a:hover, .rich-link:hover{
+color:#0090FF;}
+.rich-container a:visited, .rich-link:visited{
+color:#0090FF;}
+.rich-field, .rich-field-edit, .rich-field-error{
+border-width:1px;border-style:inset;border-color:#C4C0B9;}
+.rich-field{
+background-color:#ffffff;background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDF-j94vUQPA6_wvNNzm4QS51qDmBfM9IxUp1yD_PUhFD-o3uT33gDqHlw6PYFpfLgrgWngHje9nwhzDlbcW5-nMBIRb8Wo5dFuq31Wyi_Rkw);background-repeat:no-repeat;background-position:1px 1px;}
+.rich-field-edit{
+background-color:#FEFFDA;}
+.rich-field-error{
+background-color:#FF0000;background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDDGI0dic3a3-EMMc71pyNRg53HhORPMhSxz1f4B8gQgxsabpX_s9OFFqeJZ-V7TEEm_C6Yo7s2oxggcneJiL6Fg);background-repeat:no-repeat;background-position:center left;padding-left:7px;}
+.rich-button, .rich-button-disabled, .rich-button-over, .rich-button-press{
+border-width:1px;border-style:solid;border-color:#C4C0B9;background-color:#DFDCD5;padding:2px 10px 2px 10px;text-align:center;cursor:pointer;background-repeat:repeat-x;background-position:top left;}
+.rich-button{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDP8KhVDKh3DF_DYYZGXSdRojuaHYoh7R1MaYFLCR1_wiCykPLoGjfnxlmfIhs09tTCXU3KgPG_JBIWu2ZcYUzuR3qGTywubJlGm70foHXjxd);}
+.rich-button-disabled{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDP8KhVDKh3DF_DYYZGXSdRojuaHYoh7R1MaYFLCR1_wiCykPLoGjfnxlmfIhs09tTCXU3KgPG_JBIWu2ZcYUzuR3qGTywubJlGm70foHXjxd);}
+.rich-button-over{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDP8KhVDKh3DF_DYYZGXSdRojuaHYoh7R1MaYFLCR1_wiCykPLoGjfnxlmfIhs09tTCXU3KgPG_JBIWu2ZcYUzuR3qGTywubJlGm70foHXjxd);}
+.rich-button-press{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-G4WLizoOZ4kvJDj1FRyqPDP8KhVDKh3DF_DYYZGXSdRoz9lhTid_82V7Lykwzv3oxatORugND2Mu_DgB5e0kuLyWe-3v0qQt1jQSgHOpEcN99Xq2--1TriNEw89o_Qb2y);background-position:bottom left;}
+.rich-box-border-color-control-select{
+border-color:#E79A00;}
+.rich-box-border-color-subborder{
+border-color:#ffffff;}
+.rich-box-border-color-header{
+border-color:#D4CFC7;}
+.rich-box-border-color-general{
+border-color:#FFFFFF;}
+.rich-box-border-color-additional{
+border-color:#F1EEE9;}
+.rich-box-border-color-panel{
+border-color:#C4C0B9;}
+.rich-box-border-color-tip{
+border-color:#E5973E ;}
+.rich-box-border-color-table{
+border-color:#C4C0C9;}
+.rich-box-border-control-select, .rich-box-border-subborder, .rich-box-border-header,    .rich-box-border-general, .rich-box-border-additional, .rich-box-border-panel, .rich-box-border-tip, .rich-box-border-table{
+border-style:solid;border-width:1px;}
+.rich-box-border-control-select{
+border-color:#E79A00;}
+.rich-box-border-subborder{
+border-color:#ffffff;}
+.rich-box-border-header{
+border-color:#D4CFC7;}
+.rich-box-border-general{
+border-color:#FFFFFF;}
+.rich-box-border-additional{
+border-color:#F1EEE9;}
+.rich-box-border-panel{
+border-color:#C4C0B9;}
+.rich-box-border-tip{
+border-color:#E5973E ;}
+.rich-box-border-table{
+border-color:#C4C0C9;}
+.rich-box-bgcolor-header{
+background-color:#D4CFC7;}
+.rich-box-bgcolor-general{
+background-color:#FFFFFF;}
+.rich-box-bgcolor-additional{
+background-color:#F1EEE9;}
+.rich-box-bgcolor-panel{
+}
+.rich-box-bgcolor-tab{
+background-color:#E3DED5;}
+.rich-box-bgcolor-trim{
+background-color:#DFDCD5;}
+.rich-box-bgcolor-tip{
+background-color:#FAE6B0 ;}
+.rich-box-bgcolor-table{
+background-color:#FFFFFF;}
+.rich-box-bgcolor-table-footer{
+background-color:#cccccc;}
+.rich-box-bgcolor-table-subfooter{
+background-color:#f1f1f1;}
+.rich-box-bgcolor-editor{
+background-color:#F1F1F1;}
+.rich-box-bgcolor-edit{
+background-color:#FEFFDA;}
+.rich-text-color-header{
+color:#000000;}
+.rich-text-color-general{
+color:#000000;}
+.rich-text-color-tab-disabled{
+color:#B1ADA7;}
+.rich-text-color-select{
+color:#E79A00;}
+.rich-text-color-link-general{
+color:#0078D0;}
+.rich-text-color-link-hover{
+color:#0090FF;}
+.rich-text-color-link-visited{
+color:#0090FF;}
+.rich-font-size-general{
+font-size:11px;}
+.rich-font-size-header{
+font-size:11px;}
+.rich-font-family-general{
+font-family:Arial, Verdana, sans-serif ;}
+.rich-font-family-header{
+font-family:Arial, Verdana, sans-serif;}
+.rich-text-general{
+font-size:11px;font-family:Arial, Verdana, sans-serif ;color:#000000;}
+.rich-text-header{
+font-size:11px;font-family:Arial, Verdana, sans-serif;color:#000000;}
+.rich-text-tab-disabled{
+font-size:11px;font-family:Arial, Verdana, sans-serif ;color:#B1ADA7;}
+.rich-text-control-select{
+font-size:11px;font-family:Arial, Verdana, sans-serif;color:#E79A00;}
+.rich-gradient-header-inverse{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXhtLs141tepBLv1-ykxp07Uuj87LpnD0uGGZvnfnZB4X0OVS5Ep41Gc5M0mWppxWrX8NNwRfhJnu6Q5LOCDYqrIqDRLJI6hCHHxu-v0zYpj0);background-repeat:repeat-x;}
+.rich-gradient-header{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXhtLs141tepBLv1-ykxp07UIqZD5DHE-GGa1OnPDdZc_KMPi8_ydDTV_NGxXilH_hicZ-74XVEoR1OvD0OnxkHP1TK9ft2VlSQ7QpDtwo8mp);background-repeat:repeat-x;}
+.rich-gradient-tab{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXkFCimCaBEhQgapNfmlXnB2TgTOBDyPo3Gpbkb8f4Yl_EtGs557DZRl3cVc5f6Rcw5I_GyqBkYVsG31-4UqD_Ew1w8hwD1xafpj3yTbkemM8);background-repeat:repeat-x;}
+.rich-gradient-tab-inverse{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXi1QX3sCKLegih-QO4V5Sp9B8FE_kh-7lw990NhGX_DA4S33IBF1Tt5trhtAazHpzYlhfP6JKTXtMoD3w1sCKuAo37HV34lDgyoDYTFuAhmjsVEr7jTKcviXgYN54uTtmw);background-repeat:repeat-x;}
+.rich-gradient-input{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXrwdFlU6arORWR7gGj9fiZpjUfZ405NQ3S6ter5b84YQ8mv1ANs58D8d06rnbE7SJ6lWDiVRZY50tvAe9T0MD-R9edMPjGSv2TbXcFwI4Llx);background-repeat:repeat-x;}
+.rich-gradient-menu-inverse{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXtygykLyKTuNWWIad5DY4dX9eOMcgaP32wirLmVtDsxJjeTDe1KUnGloeY5rk3E9ao1ZrVD-qmy8WyVecHAkWdxFxR0bTHBwyg0JOCIV29yB);background-repeat:repeat-x;}
+.rich-gradient-menu{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXuYhJ-b7GzDcJCr2Rx5K2WvqfmY0_Yl0Ic0fA1wnVpxjrThxM0ogmU-bLTtJbnlTc0-aUIYvh0y1FmFfMXTqWEI3Dsf04mIvrX7DRRjwBczH);background-repeat:repeat-x;}
+.rich-gradient-button-inverse{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXgJbDLbuAia4a5uobWHPSTxDlfghPk8HlZsBVc23ZfiCG0T-huVi0gDCq6T2HB5vqAQAPhOnr8xjysaNEcJhnYI7DazEOxugTLhuZwSuesS51qf6Htyzl3dDfjcmtPLL7Q);background-repeat:repeat-x;}
+.rich-gradient-button{
+background-image: url(http://www.rwe.com/web/cms/de/234470/verkehrsprojekte-hambach/verlegung-der-hambachbahn/?a=ewc28o6zRzW1jhAA2WIPxTPQzow1qR9hKy06GwsGxlryxKlN9BtMf0qO72B4_u-Gw-uXvtSIOv9LMwlwJzbgXgJbDLbuAia4a5uobWHPSTyD_UkwQm6YV7dVdqTdEF8YuNJ4P3IbhpgdlxFdADtBlH0COiO5kLDNq9Jc1vkm-qI0Qu7vw4mJKRVOHZBK0Ls_);background-repeat:repeat-x;}
